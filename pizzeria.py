@@ -49,6 +49,7 @@ amount_to_pay = with_sale + delivery
 print("К ОПЛАТЕ:          ", amount_to_pay)
 print("==========================")
 
-print('Позиции: 4')
-median = all / 4
+count = 4
+print('Позиции: ', count)
+median = all / count
 print('Средняя стоимость позиции:', median)
